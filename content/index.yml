@@ -1,0 +1,36 @@
+hero:
+  title: Build Blazing-Fast Websites with Nuxt.js & Netlify
+  description: Craft high-performing, SEO-friendly web experiences with the dynamic power of Nuxt.js and the speed of Netlify’s global edge network.
+  buttons:
+    - label: Get Started Today
+      url: https://www.netlify.com/
+logos:
+  title: Trusted by the world's best
+  icons:
+    - name: i-simple-icons-gitlab
+    - name: i-simple-icons-github
+    - name: i-simple-icons-openai
+    - name: i-simple-icons-google
+    - name: i-simple-icons-netlify
+features:
+  title: Why choose Nuxt.js?
+  description: Nuxt.js is a powerful framework built on top of Vue.js that provides an excellent developer experience.
+  items:
+    - title: Server-Side Rendering
+      description: Nuxt.js allows you to build SSR applications with Vue.js, ensuring fast initial page loads and better SEO.
+    - title: Static Site Generation
+      description: You can pre-render pages at build time for static websites. This helps with performance and scalability by serving content directly from a CDN.
+    - title: Auto-Routing
+      description: Nuxt automatically generates routes based on the file structure inside the pages directory, reducing the need for manual configuration.
+    - title: File-based Configuration
+      description: Nuxt uses a convention-over-configuration approach, allowing you to define configurations easily in nuxt.config.js without much boilerplate.
+    - title: Dynamic Imports
+      description: It supports lazy loading of components with dynamic imports to improve performance by splitting the code into smaller chunks.
+    - title: SEO Friendly
+      description: With SSR, SSG, and automatic meta tag handling, Nuxt.js ensures your application is SEO-friendly.
+cta:
+  title:  Start Building with Nuxt & Netlify
+  description: Let your next project be smarter, faster, and effortlessly deployable.
+  buttons:
+    - label: Get Started Today
+      url: https://www.netlify.com/
