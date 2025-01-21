@@ -14,6 +14,11 @@ A customizable Nuxt starter using:
 - [Tailwind CSS](https://tailwindcss.com/) v3.x
 - [Nuxt Content](https://content.nuxt.com/) support
 
+| Prerequisites             |
+| :------------------------ |
+| [Node.js](https://nodejs.org/) v20.9+. |
+| (optional) [nvm](https://github.com/nvm-sh/nvm) for Node version management. |
+
 ## Build Setup
 
 ```bash
