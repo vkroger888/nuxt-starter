@@ -1,9 +1,9 @@
 <script setup>
-const props = defineProps({
-  title: String,
-  description: String,
-  items: Array
-});
+  const props = defineProps({
+    title: String,
+    description: String,
+    items: Array
+  });
 </script>
 
 <template>
@@ -14,11 +14,12 @@ const props = defineProps({
     {{ description }}
   </p>
   <div class="mt-10 mb-20 sm:gap-8 sm:columns-2 lg:columns-3">
-    <blockquote v-for="item in items" class="p-8 mb-8 border-2 border-dashed rounded break-inside-avoid sm:p-12">
+    <blockquote v-for="item in items"
+      class="p-8 mb-8 border-2 border-dashed rounded-sm border-zinc-300 break-inside-avoid sm:p-12">
       <p class="text-zinc-500" v-if="item.quote">{{ item.quote }}</p>
-      <footer class="flex items-center gap-2 mt-4" v-if="item.author">
-        <NuxtImg :src="item.author.avatar" :alt="item.author.name" width="64" height="64" class="object-cover w-16 h-16 rounded-full shrink-0"
-          v-if="item.author.avatar" />
+      <footer class="flex items-center gap-4 mt-4" v-if="item.author">
+        <NuxtImg :src="item.author.avatar" :alt="item.author.name" width="64" height="64"
+          class="object-cover w-16 h-16 rounded-sm shrink-0" v-if="item.author.avatar" />
         <div class="text-sm" v-if="item.author.name || item.author.title">
           <p class="font-bold text-zinc-800" v-if="item.author.name">{{ item.author.name }}</p>
           <p class="text-zinc-500" v-if="item.author.title">{{ item.author.title }}</p>

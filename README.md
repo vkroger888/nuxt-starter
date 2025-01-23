@@ -11,7 +11,7 @@ Nuxt Starter is a minimal template designed for creating quick landing pages, bu
 A customizable Nuxt starter using:
 
 - [Nuxt](https://nuxt.com/) v3.x 
-- [Tailwind CSS](https://tailwindcss.com/) v3.x
+- [Tailwind CSS](https://tailwindcss.com/) v4.x
 - [Nuxt Content](https://content.nuxt.com/) support
 
 | Prerequisites             |
