@@ -22,7 +22,7 @@ const menuitems = [
       <nav class="flex w-auto">
         <ul class="flex flex-row gap-3 text-sm">
           <li v-for="item of menuitems">
-            <a :href="item.url" class="flex px-3 py-2 text-gray-600 border rounded hover:text-gray-800">
+            <a :href="item.url" class="flex px-3 py-2 text-gray-600 border rounded-sm hover:text-gray-800">
               {{ item.title }}
             </a>
           </li>

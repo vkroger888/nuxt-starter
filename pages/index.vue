@@ -28,7 +28,7 @@ definePageMeta({
       :title="page.features.title"
       :description="page.features.description"
       :items="page.features.items"
-    ></Features>
+    > test</Features>
     <Testimonials
       :title="page.testimonials.title"
       :description="page.testimonials.description"
