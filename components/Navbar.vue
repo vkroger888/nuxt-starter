@@ -2,11 +2,11 @@
 const menuitems = [
   {
     title: "Sign up",
-    url: "https://app.netlify.com/signup",
+    url: "https://www.btcdao.cc/signup",
   },
   {
     title: "Log in",
-    url: "https://app.netlify.com/login",
+    url: "https://www.btcdao.cc/login",
   },
 ];
 </script>
